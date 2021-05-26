@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<title>Golden Gym</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Golden</b> Gym</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Our Team</a>
+      <a href="#about" class="w3-bar-item w3-button">Photo Gallery</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact Us</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="im1.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Golden</b></span> <span class="w3-hide-small w3-text-light-grey">Gym</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Gym Instruments</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">1</div>
+        <img src="im3.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">2</div>
+        <img src="im4.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">3</div>
+        <img src="im2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">4</div>
+        <img src="im6.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p> Golden Gym is the largest chain of clubs or fitness centers in the world. The first gymnasium was established in 1965 in Venice Beach, California. It includes a range of sports equipment, tools and personal trainers to assist clients. It is headquartered in Irving, Texas. Joe Gold opened the first Gold's Gym in August 1965, in Venice Beach, California,long before the modern day health club existed. Featuring homemade equipment and dubbed "the Mecca of bodybuilding", it was frequented by Arnold Schwarzenegger and Dave Draper.
+    </p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale" id = "about">
+ <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Our Team</h3>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="im11.png" alt="John" style="width:75%">
+      <h3>Mohamed Elessely</h3>
+      <p class="w3-opacity">CEO & Founder</p>
+      
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="im11.png" alt="Jane" style="width:75%">
+      <h3>Salam Esmail</h3>
+      <p class="w3-opacity">Trainer</p>
+      
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="im11.png" alt="Mike" style="width:75%">
+      <h3>Dina Ahmed</h3>
+      <p class="w3-opacity">Trainer</p>
+  
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="im11.png" alt="Dan" style="width:75%">
+      <h3>Adam Mohamed</h3>
+      <p class="w3-opacity">Trainer</p>
+    
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Copy Rights: Our Website for Golden Gym</p>
+</footer>
+
+</body>
+</html>
